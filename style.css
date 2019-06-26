@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weekly-item {
+    display:flex;
+    align-items: center;
+    width:15%
+}
+.number{
+    font-size: 1.5rem;
+    color: #111;
+    margin: 0 0.5rem;
+}
+.info{
+    font-size: 1rem;
+    color: #111;
+    flex-grow: 1;
+}
+.info .singger {
+    font-size: 0.8rem;
+    color: #999;
+}
+.viewCount {
+    font-size: 0.9rem;
+    color: #999;
+}
